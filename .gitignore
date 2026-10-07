@@ -1,0 +1,21 @@
+# Obsidian internal configuration & workspace cache
+.obsidian/
+.trash/
+
+# Node dependencies
+node_modules/
+package-lock.json.log
+
+# Playwright artifacts & test results
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# Environment & credentials
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
